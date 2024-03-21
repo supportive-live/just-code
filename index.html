@@ -1,46 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature Conservation</title>
+    <title>Furniture Shopping Website</title>
+
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+        /* Resetting default margin and padding */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
             padding: 20px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #007bff;
+
+        header h1 {
+            margin: 0;
         }
-        p {
-            line-height: 1.6;
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .featured-products {
+            padding: 20px;
+        }
+
+        .featured-products h2 {
+            margin-bottom: 20px;
+        }
+
+        .product {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .product img {
+            width: 200px;
+            height: auto;
+        }
+
+        .blogs {
+            padding: 20px;
+        }
+
+        .blog {
+            margin-bottom: 20px;
+        }
+
+        .blog h2 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Nature Conservation</h1>
-        <p>Our planet's natural beauty is a gift that we must protect. Here are some ways to save nature:</p>
-        <ul>
-            <li>Reduce, reuse, and recycle to minimize waste.</li>
-            <li>Plant trees and participate in reforestation efforts.</li>
-            <li>Conserve water by fixing leaks and using water-saving appliances.</li>
-            <li>Support wildlife sanctuaries and protect endangered species.</li>
-            <li>Use eco-friendly products and reduce plastic usage.</li>
-            <li>Advocate for policies that promote environmental conservation.</li>
-            <li>Connect with nature by spending time outdoors and appreciating its beauty.</li>
-        </ul>
-        <p>Remember, every small action counts. Let's work together to preserve our planet for future generations!</p>
-    </div>
+    <header>
+        <h1>Furniture Kingdom</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="pexels-eric-mufasa-1350789 (1).jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$100</p>
+        </div>
+        <div class="product">
+            <img src="pexels-pixabay-271816 (1).jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$150</p>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$120</p>
+        </div>
+        <div class="product">
+            <img src="product4.jpg" alt="Product 4">
+            <h3>Product 4</h3>
+            <p>$200</p>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <section class="blogs">
+        <div class="blog">
+            <h2>Blog 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="blog">
+            <h2>Blog 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Furniture Kingdom</p>
+    </footer>
 </body>
+
 </html>
